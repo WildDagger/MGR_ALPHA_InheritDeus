@@ -73,6 +73,16 @@ h1.title {
     color: black;
 }
 
+/* Modal */
+#modal .modal-dialog {
+    width: 80%;
+}
+
+#modal .page-content {
+    height: 80%;
+    overflow-y: auto;
+}
+
 /*PC標示*/
 .dialog-pc1 {
     color: #005aff;

@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.bg {
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.bg-heroimage {
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.bg > .bg-content {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+
+.bg-title > .bg-content {
+    margin-bottom: 1em;
+}
+
+.bg-content {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1.title {
+  font-weight: bold;
+}
+/*
+.nav-main-header {
+    max-width: 10em; 
+}
+*/
+.nav-main-header .nav-link {
+    border-radius: 0;
+}
+
+.nav-main-header a:link,.nav-main-header a:active, .nav-main-header a:visited{
+    color: #fff;
+    border-bottom: transparent 0.2em solid;
+}
+
+.nav-main-header a:hover, .nav-main-header a:focus {
+    color: #ccc;
+    border-bottom: #ccc 0.2em solid;
+}
+
+.section-title-image {
+    height: 8em;
+    width: auto;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.text-emphasis {
+    font-weight: bold;
+}
+
+.text-tips {
+    text-decoration: underline;
+}
+
+.intro-header-list .list-group-item {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#epList .list-group-item {
+    color: black;
+}
+
+/*PC標示*/
+.dialog-pc1 {
+    color: #005aff;
+}
+
+.dialog-pc2 {
+    color: #e60f0f;
+}
+
+.dialog-pc3 {
+    color: #118d3c;
+}
+
+.dialog-pc4 {
+    color: #003300;
+}
+
+.dialog-pc5 {
+    color: #880924;
+}

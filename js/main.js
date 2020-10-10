@@ -25,10 +25,7 @@ $(function(){
         var $self = $(this)
         $modalPageContent.load($self.data('link') + ' .scene', function() {
             $modal.find('.modal-title').text($self.text())
-            $modal.modal({
-                backdrop: 'static',
-                keyboard: false
-            })
+            $modal.modal()
         })
     })
 })

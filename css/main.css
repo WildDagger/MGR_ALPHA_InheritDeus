@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    ruby-align: center;
 }
 
 .bg {
@@ -68,6 +69,7 @@ h1.title {
 
 .text-tips {
     text-decoration: underline;
+    cursor: help;
 }
 
 .card-chara {
@@ -125,29 +127,49 @@ h1.title {
 
 /*PC標示*/
 
-.dialog-pc1 {
-    /* color: #005aff; */
+.dialog-pc.dialog-pc1 {
     color: #80adff;
 }
 
-.dialog-pc2 {
-    /* color: #e60f0f; */
+.dialog-pc.dialog-pc2 {
     color: #f38787;
 }
 
-.dialog-pc3 {
-    /* color: #118d3c; */
+.dialog-pc.dialog-pc3 {
     color: #88c69e;
 }
 
-.dialog-pc4 {
-    /* color: #003300; */
+.dialog-pc.dialog-pc4 {
     color: #809980;
 }
 
-.dialog-pc5 {
-    /* color: #880924; */
+.dialog-pc.dialog-pc5 {
     color: #c48492;
+}
+
+.game-pc.dialog-pc1 {
+    color: #005aff;
+}
+
+.game-pc.dialog-pc2 {
+    color: #e60f0f;
+}
+
+.game-pc.dialog-pc3 {
+    color: #118d3c;
+}
+
+.game-pc.dialog-pc4 {
+    color: #003300;
+}
+
+.game-pc.dialog-pc5 {
+    color: #880924;
+}
+
+.story-game-system {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
 }
 
 @media(min-width: 768px) {

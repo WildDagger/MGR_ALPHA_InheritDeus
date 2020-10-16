@@ -49,7 +49,7 @@ $(function(){
         })
     })
 
-    $modal.on('show.bs.modal', function(e) {
+    $modal.on('shown.bs.modal', function(e) {
         $modal.find('.modal-body').scrollTop(0)
     })
 })

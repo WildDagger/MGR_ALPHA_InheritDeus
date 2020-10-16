@@ -4,6 +4,10 @@ body {
     ruby-align: center;
 }
 
+hr {
+    border-top: 1px solid white;
+}
+
 .bg {
     background-size: cover;
     background-position: 50% 50%;
@@ -174,6 +178,10 @@ h1.title {
 .story-game-system {
     background-color: rgba(255, 255, 255, 0.9);
     color: #000;
+}
+
+.record {
+    font-style: italic;
 }
 
 @media(min-width: 768px) {

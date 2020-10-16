@@ -111,6 +111,10 @@ h1.title {
     overflow-y: scroll;
 }
 
+.modal .close {
+    color: #fff;
+}
+
 /*PC標示*/
 
 .dialog-pc1 {

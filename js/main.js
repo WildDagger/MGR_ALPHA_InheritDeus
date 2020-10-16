@@ -23,8 +23,28 @@ $(function(){
         e.preventDefault()
 
         var $self = $(this)
-        $modalPageContent.load($self.data('link') + ' .scene', function() {
+        $modalPageContent.load($self.attr('href') + ' .scene', function(response, status, xhr) {
+            if (status == 'error') {
+                console.log('發生錯誤: ' + xhr.statusText)
+                window.location = $self.attr('href')
+                return
+            }
             $modal.find('.modal-title').text($self.text())
+            $modal.modal()
+        })
+    })
+
+    $('.card-chara .btn.btn-primary').on('click', function(e) {
+        e.preventDefault()
+
+        var $self = $(this)
+        $modalPageContent.load($self.attr('href') + ' .chara', function(response, status, xhr) {
+            if (status == 'error') {
+                console.log('發生錯誤: ' + xhr.statusText)
+                window.location = $self.attr('href')
+                return
+            }
+            $modal.find('.modal-title').text($self.data('title'))
             $modal.modal()
         })
     })

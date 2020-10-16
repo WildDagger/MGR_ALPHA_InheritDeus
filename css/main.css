@@ -10,6 +10,7 @@ body {
 
 .bg-heroimage {
     background-attachment: fixed;
+    background-color: transparent;
     min-height: 100vh;
 }
 
@@ -50,6 +51,10 @@ h1.title {
     border-bottom: #ccc 0.2em solid;
 }
 
+.section-content.bg-dark-transparent {
+    background: rgba(0, 0, 0, 0.5);
+}
+
 .section-title-image {
     height: 8em;
     width: auto;
@@ -65,12 +70,24 @@ h1.title {
     text-decoration: underline;
 }
 
-.intro-header-list .list-group-item {
+.card-chara {
+    box-shadow: rgba(0, 0, 0, 0.5) 0.25em 0.25em 0.625em;
+}
+
+.story-text {
+    text-shadow: rgba(0, 0, 0, 0.75) 0.063em 0.063em 0.625em, rgba(0, 0, 0, 0.75) -0.063em 0.063em 0.625em, rgba(0, 0, 0, 0.75) 0.063em -0.063em 0.625em, rgba(0, 0, 0, 0.75) -0.063em -0.063em 0.625em;
+}
+
+.intro-header-list .list-group-item, .chara .list-group-item {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 #epList .list-group-item {
     color: black;
+}
+
+.chara .list-group-item {
+    padding: 0.5em 0.25em;
 }
 
 /* Modal */
@@ -90,27 +107,33 @@ h1.title {
 
 .modal-body {
     /* 100% = dialog height, 120px = header + footer */
-    max-height: calc(100% - 120px);
+    /*max-height: calc(100% - 120px); */
     overflow-y: scroll;
 }
 
 /*PC標示*/
+
 .dialog-pc1 {
-    color: #005aff;
+    /* color: #005aff; */
+    color: #80adff;
 }
 
 .dialog-pc2 {
-    color: #e60f0f;
+    /* color: #e60f0f; */
+    color: #f38787;
 }
 
 .dialog-pc3 {
-    color: #118d3c;
+    /* color: #118d3c; */
+    color: #88c69e;
 }
 
 .dialog-pc4 {
-    color: #003300;
+    /* color: #003300; */
+    color: #809980;
 }
 
 .dialog-pc5 {
-    color: #880924;
+    /* color: #880924; */
+    color: #c48492;
 }

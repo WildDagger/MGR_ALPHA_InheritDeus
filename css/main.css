@@ -92,11 +92,11 @@ h1.title {
 
 /* Modal */
 .modal-dialog {
-    width: 80%;
+    min-width: 100%;
 }
 
 .modal-content {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .modal-dialog,
@@ -136,4 +136,10 @@ h1.title {
 .dialog-pc5 {
     /* color: #880924; */
     color: #c48492;
+}
+
+@media(min-width: 768px) {
+    .modal-dialog {
+        min-width: 60%;
+    }
 }

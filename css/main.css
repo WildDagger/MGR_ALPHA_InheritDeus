@@ -74,6 +74,14 @@ h1.title {
     box-shadow: rgba(0, 0, 0, 0.5) 0.25em 0.25em 0.625em;
 }
 
+#header .header-content {
+    max-width: 80%;
+}
+
+#introduction, #secStaff .section-content {
+    width: 85%;
+}
+
 .story-text {
     text-shadow: rgba(0, 0, 0, 0.75) 0.063em 0.063em 0.625em, rgba(0, 0, 0, 0.75) -0.063em 0.063em 0.625em, rgba(0, 0, 0, 0.75) 0.063em -0.063em 0.625em, rgba(0, 0, 0, 0.75) -0.063em -0.063em 0.625em;
 }
@@ -145,5 +153,13 @@ h1.title {
 @media(min-width: 768px) {
     .modal-dialog {
         min-width: 60%;
+    }
+
+    #introduction, #secStaff .section-content {
+        width: 60%;
+    }
+
+    #header .header-content {
+        max-width: 50%;
     }
 }

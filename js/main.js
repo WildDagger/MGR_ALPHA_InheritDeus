@@ -30,7 +30,6 @@ $(function(){
                 return
             }
             $modal.find('.modal-title').text($self.text())
-            $modal.find('.modal-body').scrollTop(0)
             $modal.modal()
         })
     })
@@ -46,8 +45,11 @@ $(function(){
                 return
             }
             $modal.find('.modal-title').text($self.data('title'))
-            $modal.find('.modal-body').scrollTop(0)
             $modal.modal()
         })
+    })
+
+    $modal.on('show.bs.modal', function(e) {
+        $modal.find('.modal-body').scrollTop(0)
     })
 })

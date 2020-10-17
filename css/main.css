@@ -180,6 +180,10 @@ h1.title {
     color: #000;
 }
 
+.story-game-system hr {
+    border-top: 1px solid black;
+}
+
 .record {
     font-style: italic;
 }
